@@ -1,0 +1,14 @@
+version: "3"
+services:
+  devops:
+    image: tejaswijaladanki/devops:v1
+    ports:
+      - "8000:8080"
+  datascience:
+    image: tejaswijaladanki/datascience:v1
+    ports:
+      - "8001:8080"
+  java: 
+    image: tejaswijaladanki/java:v1
+    ports:
+      - "8002:8080"    
